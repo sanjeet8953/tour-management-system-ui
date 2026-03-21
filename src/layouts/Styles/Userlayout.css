@@ -1,0 +1,157 @@
+/* ===== Global ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f5f7fa;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  background: #ffffff;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0078ff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #0078ff;
+}
+
+.login-btn {
+  background: #0078ff;
+  color: white !important;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+/* ===== Hero Section ===== */
+.hero-section {
+  background: linear-gradient(to right, #0078ff, #00c6ff);
+  padding: 80px 20px;
+  color: white;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+/* Tabs */
+.tabs {
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 18px;
+  margin: 0 15px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.active-tab {
+  border-bottom: 2px solid white;
+}
+
+/* Search Box */
+.search-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.search-box input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 200px;
+}
+
+.search-btn {
+  background: #0078ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background: #005ecb;
+}
+
+/* ===== Content ===== */
+.content {
+  flex: 1;
+  padding: 40px 60px;
+}
+
+/* ===== Footer ===== */
+.footer {
+  background: #111;
+  color: #ccc;
+  padding: 40px 60px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.footer h4 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.footer p:hover {
+  color: #0078ff;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
