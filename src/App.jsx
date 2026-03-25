@@ -6,7 +6,7 @@ import './App.css'
 import AppRoutes from './routes/AppRoutes.jsx';
 
 function App() {
-  const user ={jwt:'kjdfjasasdfjlasjdf' , role:'User'}; // Simulated user data
+  const user ={jwt:'kjdfjasasdfjlasjdf' , role:'Admin'}; // Simulated user data
   localStorage.setItem("user", JSON.stringify(user));
   return <AppRoutes />
 }
