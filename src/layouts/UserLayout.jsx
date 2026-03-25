@@ -11,7 +11,7 @@ const UserLayout = () => {
 
         <ul className="nav-links">
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/packages">Packages</Link></li>
+          <li><Link to="/admin">Admin</Link></li>
           <li><Link to="/my-bookings">My Bookings</Link></li>
           {/* <li><Link to="/login" className="login-btn">Login</Link></li> */}
         </ul>

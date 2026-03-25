@@ -14,7 +14,7 @@ const AdminLayout = () => {
 
         <ul className="sidebar-menu">
           <li><Link to="/admin">Dashboard</Link></li>
-          <li><Link to="/admin/manage-packages">Manage Packages</Link></li>
+          <li><Link to="/admin/register">Register</Link></li>
           <li><Link to="/admin/manage-bookings">Manage Bookings</Link></li>
           <li><Link to="/admin/manage-users">Manage Users</Link></li>
           <li><Link to="/admin/manage-hotels">Manage Hotels</Link></li>

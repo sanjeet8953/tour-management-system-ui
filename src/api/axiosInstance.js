@@ -9,7 +9,7 @@ const axiosInstance = axios.create({
 
 // Attach JWT Automatically
 axiosInstance.interceptors.request.use((config) => {
-  const user = JSON.parse(localStorage.getItem("user"));
+  const user = JSON.parse(localStorage.getItem("admin"));
   if (user?.jwt) {
     config.headers.Authorization = `Bearer ${user.jwt}`;
   }
